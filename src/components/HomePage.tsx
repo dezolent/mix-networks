@@ -525,9 +525,9 @@ function HomePage() {
             <div>
               <h3 className="text-xl font-bold mb-4 text-[#b0d136]">SERVICES</h3>
               <ul className="space-y-2">
-                <li><a href="#" className="hover:text-[#b0d136] transition-colors">POTS Replacement</a></li>
-                <li><a href="#" className="hover:text-[#b0d136] transition-colors">Billing as a Service</a></li>
-                <li><a href="#" className="hover:text-[#b0d136] transition-colors">Support Services</a></li>
+                <li><a href="/pots-replacement" className="hover:text-[#b0d136] transition-colors">POTS Replacement</a></li>
+                <li><a href="/hosted-pbx" className="hover:text-[#b0d136] transition-colors">Hosted PBX</a></li>
+                <li><a href="/business-continuity" className="hover:text-[#b0d136] transition-colors">Business Continuity</a></li>
                 <li><a href="#" className="hover:text-[#b0d136] transition-colors">Cellular Connectivity</a></li>
               </ul>
             </div>
@@ -537,7 +537,7 @@ function HomePage() {
                 <li><a href="/assisted-living" className="hover:text-[#b0d136] transition-colors">Assisted Living</a></li>
                 <li><a href="#" className="hover:text-[#b0d136] transition-colors">Healthcare</a></li>
                 <li><a href="#" className="hover:text-[#b0d136] transition-colors">Financial Services</a></li>
-                <li><a href="#" className="hover:text-[#b0d136] transition-colors">Education</a></li>
+                <li><a href="/education" className="hover:text-[#b0d136] transition-colors">Education</a></li>
               </ul>
             </div>
             <div>
@@ -550,8 +550,8 @@ function HomePage() {
             <div>
               <h3 className="text-xl font-bold mb-4 text-[#b0d136]">COMPANY</h3>
               <ul className="space-y-2">
-                <li><a href="#" className="hover:text-[#b0d136] transition-colors">About Us</a></li>
-                <li><a href="#" className="hover:text-[#b0d136] transition-colors">Careers</a></li>
+                <li><a href="/about" className="hover:text-[#b0d136] transition-colors">About Us</a></li>
+                <li><a href="/contact" className="hover:text-[#b0d136] transition-colors">Contact Us</a></li>
                 <li><a href="#" className="hover:text-[#b0d136] transition-colors">Partner Program</a></li>
                 <li><a href="#" className="hover:text-[#b0d136] transition-colors">Resources</a></li>
               </ul>

@@ -540,10 +540,11 @@ function HomePage() {
               </ul>
             </div>
             <div>
-              <h3 className="text-xl font-bold mb-4 text-[#b0d136]">SOLUTIONS</h3>
+              <h3 className="text-xl font-bold mb-4 text-[#b0d136]">RESOURCES</h3>
               <ul className="space-y-2">
-                <li><a href="#" className="hover:text-[#b0d136] transition-colors">Port Genie 2025</a></li>
-                <li><a href="#" className="hover:text-[#b0d136] transition-colors">White-Label Solutions</a></li>
+                <li><a href="#" className="hover:text-[#b0d136] transition-colors">Blog</a></li>
+                <li><a href="#" className="hover:text-[#b0d136] transition-colors">Use Cases</a></li>
+                <li><a href="#" className="hover:text-[#b0d136] transition-colors">Data Sheets</a></li>
               </ul>
             </div>
             <div>

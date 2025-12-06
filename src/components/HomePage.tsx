@@ -161,80 +161,112 @@ function HomePage() {
       </header>
 
       {/* Hero Section */}
-      <section className="relative pt-24 pb-16 bg-gradient-to-br from-blue-50 via-white to-green-50 overflow-hidden">
+      <section className="relative pt-24 pb-20 bg-gradient-to-r from-[#3d8eb3] via-[#5fa68f] to-[#b0d136] overflow-hidden">
         {/* Decorative background elements */}
-        <div className="absolute top-0 left-0 w-96 h-96 bg-gradient-to-br from-[#3d8eb3]/10 to-transparent rounded-full blur-3xl"></div>
-        <div className="absolute bottom-0 right-0 w-96 h-96 bg-gradient-to-tl from-[#b0d136]/10 to-transparent rounded-full blur-3xl"></div>
+        <div className="absolute top-0 left-0 w-full h-full overflow-hidden">
+          <div className="absolute top-10 right-1/4 w-96 h-96 bg-white/5 rounded-full blur-3xl"></div>
+          <div className="absolute bottom-10 left-1/3 w-80 h-80 bg-white/5 rounded-full blur-3xl"></div>
+        </div>
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               {/* Badge */}
-              <div className="inline-flex items-center gap-2 bg-gradient-to-r from-[#3d8eb3]/10 to-[#b0d136]/10 px-4 py-2 rounded-full mb-6 border border-[#3d8eb3]/20">
-                <span className="w-2 h-2 bg-[#b0d136] rounded-full animate-pulse"></span>
-                <span className="text-sm font-semibold text-[#3d8eb3]">20 Years of Excellence</span>
+              <div className="inline-flex items-center gap-2 bg-white/20 px-4 py-2 rounded-full mb-6 border border-white/30 backdrop-blur-sm">
+                <span className="w-2 h-2 bg-white rounded-full animate-pulse"></span>
+                <span className="text-sm font-semibold text-white">20 Years of Excellence</span>
               </div>
 
               <h1 className="text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-                <span className="text-gray-900">Boutique-Style</span>
-                <span className="block bg-gradient-to-r from-[#3d8eb3] to-[#2c7a9e] bg-clip-text text-transparent">Telecommunications</span>
-                <span className="block bg-gradient-to-r from-[#b0d136] to-[#8fb52a] bg-clip-text text-transparent">Solutions</span>
+                <span className="text-white">Boutique-Style</span>
+                <span className="block text-white">Telecommunications</span>
+                <span className="block text-white">Solutions</span>
               </h1>
-              <p className="text-xl text-gray-600 mb-8 leading-relaxed">
+              <p className="text-xl text-white/95 mb-8 leading-relaxed">
                 For 20 years, MIX Networks® has delivered customer-focused voice, connectivity,
                 and unified communications solutions tailored to each business's specific needs.
               </p>
-              <div className="flex flex-col sm:flex-row gap-4">
-                <button className="group bg-gradient-to-r from-[#b0d136] to-[#9bc42a] text-white px-8 py-4 rounded-xl text-lg font-semibold hover:shadow-xl transition-all duration-300 transform hover:scale-105 hover:-translate-y-1">
+              <div className="flex flex-col sm:flex-row gap-4 mb-8">
+                <button className="group bg-white text-[#3d8eb3] px-8 py-4 rounded-xl text-lg font-bold hover:bg-gray-50 transition-all duration-300 transform hover:scale-105 shadow-xl">
                   <span className="flex items-center justify-center gap-2">
                     Get Started
                     <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                   </span>
                 </button>
-                <button className="border-2 border-[#3d8eb3] text-[#3d8eb3] px-8 py-4 rounded-xl text-lg font-semibold hover:bg-[#3d8eb3] hover:text-white transition-all duration-300 hover:shadow-lg">
+                <button className="border-2 border-white text-white px-8 py-4 rounded-xl text-lg font-bold hover:bg-white hover:text-[#3d8eb3] transition-all duration-300 backdrop-blur-sm">
                   Learn More
                 </button>
+              </div>
+
+              {/* Trust Indicators */}
+              <div className="flex flex-wrap gap-6 text-white/95">
+                <div className="flex items-center gap-2">
+                  <div className="w-6 h-6 bg-white/20 rounded-full flex items-center justify-center backdrop-blur-sm">
+                    <CheckCircle className="w-4 h-4 text-white" />
+                  </div>
+                  <span className="font-medium">20+ Years Experience</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <div className="w-6 h-6 bg-white/20 rounded-full flex items-center justify-center backdrop-blur-sm">
+                    <CheckCircle className="w-4 h-4 text-white" />
+                  </div>
+                  <span className="font-medium">99.9% Uptime</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <div className="w-6 h-6 bg-white/20 rounded-full flex items-center justify-center backdrop-blur-sm">
+                    <CheckCircle className="w-4 h-4 text-white" />
+                  </div>
+                  <span className="font-medium">24/7 Support</span>
+                </div>
               </div>
             </div>
             <div className="relative">
               {/* Social Links - Hero Banner */}
               <div className="absolute top-0 right-0 z-10 flex gap-3">
-                <a href="https://www.linkedin.com/company/mix-networks" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-white rounded-full flex items-center justify-center text-[#3d8eb3] hover:bg-[#3d8eb3] hover:text-white transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-110">
+                <a href="https://www.linkedin.com/company/mix-networks" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-white/20 backdrop-blur-md rounded-full flex items-center justify-center text-white hover:bg-white hover:text-[#3d8eb3] transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-110 border border-white/30">
                   <Linkedin className="w-5 h-5" />
                 </a>
-                <a href="https://www.youtube.com/@mixnetworksinc.1556" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-white rounded-full flex items-center justify-center text-[#3d8eb3] hover:bg-[#3d8eb3] hover:text-white transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-110">
+                <a href="https://www.youtube.com/@mixnetworksinc.1556" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-white/20 backdrop-blur-md rounded-full flex items-center justify-center text-white hover:bg-white hover:text-[#3d8eb3] transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-110 border border-white/30">
                   <Youtube className="w-5 h-5" />
                 </a>
-                <a href="https://www.facebook.com/MixNetworks" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-white rounded-full flex items-center justify-center text-[#3d8eb3] hover:bg-[#3d8eb3] hover:text-white transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-110">
+                <a href="https://www.facebook.com/MixNetworks" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-white/20 backdrop-blur-md rounded-full flex items-center justify-center text-white hover:bg-white hover:text-[#3d8eb3] transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-110 border border-white/30">
                   <Facebook className="w-5 h-5" />
                 </a>
-                <a href="https://x.com/mixnetworks" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-white rounded-full flex items-center justify-center text-[#3d8eb3] hover:bg-[#3d8eb3] hover:text-white transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-110">
+                <a href="https://x.com/mixnetworks" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-white/20 backdrop-blur-md rounded-full flex items-center justify-center text-white hover:bg-white hover:text-[#3d8eb3] transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-110 border border-white/30">
                   <Twitter className="w-5 h-5" />
                 </a>
               </div>
 
-              <div className="bg-gradient-to-br from-[#3d8eb3] to-[#b0d136] rounded-3xl p-8 transform rotate-3 hover:rotate-0 transition-transform duration-500">
-                <div className="bg-white rounded-2xl p-6 -rotate-3">
+              <div className="bg-white/10 backdrop-blur-md rounded-3xl p-8 transform rotate-2 hover:rotate-0 transition-transform duration-500 shadow-2xl border border-white/20">
+                <div className="bg-white rounded-2xl p-6 -rotate-2">
                   <div className="grid grid-cols-2 gap-4">
-                    <div className="bg-[#f7f7f7] p-4 rounded-lg">
-                      <Network className="w-8 h-8 text-[#3d8eb3] mb-2" />
-                      <h3 className="font-semibold text-[#5c5d5d]">POTS Replacement</h3>
-                      <p className="text-sm text-gray-600">Legacy Line Solutions</p>
+                    <div className="bg-gradient-to-br from-blue-50 to-blue-100 p-4 rounded-xl hover:shadow-lg transition-all duration-300 transform hover:scale-105">
+                      <div className="w-14 h-14 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl flex items-center justify-center mb-3 shadow-md">
+                        <Network className="w-7 h-7 text-white" />
+                      </div>
+                      <h3 className="font-bold text-[#5c5d5d] mb-1">POTS Replacement</h3>
+                      <p className="text-xs text-gray-600">Legacy Line Solutions</p>
                     </div>
-                    <div className="bg-[#f7f7f7] p-4 rounded-lg">
-                      <Server className="w-8 h-8 text-[#b0d136] mb-2" />
-                      <h3 className="font-semibold text-[#5c5d5d]">Managed Services</h3>
-                      <p className="text-sm text-gray-600">Billing & Support</p>
+                    <div className="bg-gradient-to-br from-green-50 to-green-100 p-4 rounded-xl hover:shadow-lg transition-all duration-300 transform hover:scale-105">
+                      <div className="w-14 h-14 bg-gradient-to-br from-green-500 to-green-600 rounded-xl flex items-center justify-center mb-3 shadow-md">
+                        <Server className="w-7 h-7 text-white" />
+                      </div>
+                      <h3 className="font-bold text-[#5c5d5d] mb-1">Managed Services</h3>
+                      <p className="text-xs text-gray-600">Billing & Support</p>
                     </div>
-                    <div className="bg-[#f7f7f7] p-4 rounded-lg">
-                      <Smartphone className="w-8 h-8 text-[#3d8eb3] mb-2" />
-                      <h3 className="font-semibold text-[#5c5d5d]">Cellular</h3>
-                      <p className="text-sm text-gray-600">4G/5G Connectivity</p>
+                    <div className="bg-gradient-to-br from-purple-50 to-purple-100 p-4 rounded-xl hover:shadow-lg transition-all duration-300 transform hover:scale-105">
+                      <div className="w-14 h-14 bg-gradient-to-br from-purple-500 to-purple-600 rounded-xl flex items-center justify-center mb-3 shadow-md">
+                        <Smartphone className="w-7 h-7 text-white" />
+                      </div>
+                      <h3 className="font-bold text-[#5c5d5d] mb-1">Cellular</h3>
+                      <p className="text-xs text-gray-600">4G/5G Connectivity</p>
                     </div>
-                    <div className="bg-[#f7f7f7] p-4 rounded-lg">
-                      <HeadphonesIcon className="w-8 h-8 text-[#b0d136] mb-2" />
-                      <h3 className="font-semibold text-[#5c5d5d]">Support</h3>
-                      <p className="text-sm text-gray-600">24/7 Expert Care</p>
+                    <div className="bg-gradient-to-br from-orange-50 to-orange-100 p-4 rounded-xl hover:shadow-lg transition-all duration-300 transform hover:scale-105">
+                      <div className="w-14 h-14 bg-gradient-to-br from-orange-500 to-orange-600 rounded-xl flex items-center justify-center mb-3 shadow-md">
+                        <HeadphonesIcon className="w-7 h-7 text-white" />
+                      </div>
+                      <h3 className="font-bold text-[#5c5d5d] mb-1">Support</h3>
+                      <p className="text-xs text-gray-600">24/7 Expert Care</p>
                     </div>
                   </div>
                 </div>

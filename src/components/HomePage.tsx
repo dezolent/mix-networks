@@ -523,12 +523,11 @@ function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
-              <h3 className="text-xl font-bold mb-4 text-[#b0d136]">SERVICES</h3>
+              <h3 className="text-xl font-bold mb-4 text-[#b0d136]">SOLUTIONS</h3>
               <ul className="space-y-2">
                 <li><a href="/pots-replacement" className="hover:text-[#b0d136] transition-colors">POTS Replacement</a></li>
                 <li><a href="/hosted-pbx" className="hover:text-[#b0d136] transition-colors">Hosted PBX</a></li>
                 <li><a href="/business-continuity" className="hover:text-[#b0d136] transition-colors">Business Continuity</a></li>
-                <li><a href="#" className="hover:text-[#b0d136] transition-colors">Cellular Connectivity</a></li>
               </ul>
             </div>
             <div>

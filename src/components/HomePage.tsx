@@ -179,8 +179,8 @@ function HomePage() {
 
               <h1 className="text-5xl lg:text-6xl font-bold mb-6 leading-tight">
                 <span className="text-white">Boutique-Style</span>
-                <span className="block text-white">Telecommunications</span>
-                <span className="block text-white">Solutions</span>
+                <span className="block bg-gradient-to-r from-white via-yellow-100 to-white bg-clip-text text-transparent">Telecommunications</span>
+                <span className="block bg-gradient-to-r from-white via-lime-200 to-yellow-100 bg-clip-text text-transparent">Solutions</span>
               </h1>
               <p className="text-xl text-white/95 mb-8 leading-relaxed">
                 For 20 years, MIX Networks® has delivered customer-focused voice, connectivity,

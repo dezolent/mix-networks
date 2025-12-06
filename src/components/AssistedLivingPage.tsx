@@ -137,7 +137,7 @@ function AssistedLivingPage() {
 
               <h1 className="text-5xl lg:text-6xl font-bold mb-6 leading-tight">
                 <span className="block text-white">VoIP & POTS Replacement for</span>
-                <span className="block text-white">Assisted Living Communities</span>
+                <span className="block bg-gradient-to-r from-yellow-100 via-lime-200 to-yellow-100 bg-clip-text text-transparent">Assisted Living Communities</span>
               </h1>
               <p className="text-xl text-white/95 mb-8 leading-relaxed">
                 Reliable, HIPAA-compliant communications that keep residents, families,

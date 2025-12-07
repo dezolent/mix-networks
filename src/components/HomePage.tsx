@@ -254,15 +254,15 @@ function HomePage() {
                       <h3 className="font-bold text-[#5c5d5d] mb-1">Managed Services</h3>
                       <p className="text-xs text-gray-600">Billing & Support</p>
                     </div>
-                    <div className="bg-gradient-to-br from-purple-50 to-purple-100 p-4 rounded-xl hover:shadow-lg transition-all duration-300 transform hover:scale-105">
-                      <div className="w-14 h-14 bg-gradient-to-br from-purple-500 to-purple-600 rounded-xl flex items-center justify-center mb-3 shadow-md">
+                    <div className="bg-gradient-to-br from-[#3d8eb3]/10 to-[#3d8eb3]/20 p-4 rounded-xl hover:shadow-lg transition-all duration-300 transform hover:scale-105">
+                      <div className="w-14 h-14 bg-gradient-to-br from-[#3d8eb3] to-[#2c7a9e] rounded-xl flex items-center justify-center mb-3 shadow-md">
                         <Smartphone className="w-7 h-7 text-white" />
                       </div>
                       <h3 className="font-bold text-[#5c5d5d] mb-1">Cellular</h3>
                       <p className="text-xs text-gray-600">4G/5G Connectivity</p>
                     </div>
-                    <div className="bg-gradient-to-br from-orange-50 to-orange-100 p-4 rounded-xl hover:shadow-lg transition-all duration-300 transform hover:scale-105">
-                      <div className="w-14 h-14 bg-gradient-to-br from-orange-500 to-orange-600 rounded-xl flex items-center justify-center mb-3 shadow-md">
+                    <div className="bg-gradient-to-br from-[#b0d136]/10 to-[#b0d136]/20 p-4 rounded-xl hover:shadow-lg transition-all duration-300 transform hover:scale-105">
+                      <div className="w-14 h-14 bg-gradient-to-br from-[#b0d136] to-[#8fb52a] rounded-xl flex items-center justify-center mb-3 shadow-md">
                         <HeadphonesIcon className="w-7 h-7 text-white" />
                       </div>
                       <h3 className="font-bold text-[#5c5d5d] mb-1">Support</h3>
@@ -338,22 +338,22 @@ function HomePage() {
               </div>
             </a>
 
-            <a href="/business-continuity" className="group relative bg-white p-8 rounded-2xl hover:shadow-2xl transition-all duration-300 hover:scale-105 border-2 border-gray-100 hover:border-orange-500 overflow-hidden">
-              <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-orange-500/5 to-transparent rounded-bl-full"></div>
+            <a href="/business-continuity" className="group relative bg-white p-8 rounded-2xl hover:shadow-2xl transition-all duration-300 hover:scale-105 border-2 border-gray-100 hover:border-[#5c5d5d] overflow-hidden">
+              <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-[#5c5d5d]/5 to-transparent rounded-bl-full"></div>
               <div className="relative">
-                <div className="w-16 h-16 bg-gradient-to-br from-orange-500 to-orange-600 group-hover:scale-110 rounded-2xl flex items-center justify-center mb-6 transition-all duration-300 shadow-lg group-hover:shadow-xl">
+                <div className="w-16 h-16 bg-gradient-to-br from-[#5c5d5d] to-[#4a4b4b] group-hover:scale-110 rounded-2xl flex items-center justify-center mb-6 transition-all duration-300 shadow-lg group-hover:shadow-xl">
                   <Shield className="w-8 h-8 text-white" />
                 </div>
                 <div className="inline-block mb-3">
-                  <span className="text-xs font-bold text-orange-600 bg-orange-50 px-3 py-1 rounded-full">99.9% UPTIME</span>
+                  <span className="text-xs font-bold text-[#5c5d5d] bg-[#5c5d5d]/10 px-3 py-1 rounded-full">99.9% UPTIME</span>
                 </div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-4 group-hover:text-orange-600 transition-colors">
+                <h3 className="text-2xl font-bold text-gray-900 mb-4 group-hover:text-[#5c5d5d] transition-colors">
                   Business Continuity
                 </h3>
                 <p className="text-gray-600 mb-6">
                   Ensure your business stays connected with redundant connectivity, automatic failover, and 99.9% uptime guarantees. Never miss a critical call.
                 </p>
-                <div className="flex items-center text-orange-600 font-semibold group-hover:translate-x-2 transition-transform">
+                <div className="flex items-center text-[#5c5d5d] font-semibold group-hover:translate-x-2 transition-transform">
                   Learn More <ArrowRight className="w-4 h-4 ml-2" />
                 </div>
               </div>
@@ -370,7 +370,7 @@ function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="text-center mb-16">
             <div className="inline-block mb-4">
-              <span className="bg-gradient-to-r from-purple-600 to-pink-600 text-white px-4 py-1 rounded-full text-sm font-semibold">
+              <span className="bg-gradient-to-r from-[#3d8eb3] to-[#b0d136] text-white px-4 py-1 rounded-full text-sm font-semibold">
                 WHY CHOOSE US
               </span>
             </div>
@@ -406,8 +406,8 @@ function HomePage() {
               </p>
             </div>
 
-            <div className="group text-center p-8 rounded-2xl bg-white hover:shadow-2xl transition-all duration-300 border-2 border-transparent hover:border-purple-500 hover:-translate-y-2">
-              <div className="w-20 h-20 bg-gradient-to-br from-purple-500 to-purple-600 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300 shadow-lg">
+            <div className="group text-center p-8 rounded-2xl bg-white hover:shadow-2xl transition-all duration-300 border-2 border-transparent hover:border-[#5c5d5d] hover:-translate-y-2">
+              <div className="w-20 h-20 bg-gradient-to-br from-[#5c5d5d] to-[#4a4b4b] rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300 shadow-lg">
                 <Shield className="w-10 h-10 text-white" />
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-3">Proven Reliability</h3>
@@ -416,8 +416,8 @@ function HomePage() {
               </p>
             </div>
 
-            <div className="group text-center p-8 rounded-2xl bg-white hover:shadow-2xl transition-all duration-300 border-2 border-transparent hover:border-yellow-500 hover:-translate-y-2">
-              <div className="w-20 h-20 bg-gradient-to-br from-yellow-500 to-orange-500 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300 shadow-lg">
+            <div className="group text-center p-8 rounded-2xl bg-white hover:shadow-2xl transition-all duration-300 border-2 border-transparent hover:border-[#b0d136] hover:-translate-y-2">
+              <div className="w-20 h-20 bg-gradient-to-br from-[#b0d136] to-[#8fb52a] rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300 shadow-lg">
                 <Zap className="w-10 h-10 text-white" />
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-3">Unique Solutions</h3>
@@ -430,8 +430,8 @@ function HomePage() {
       </section>
 
       {/* Services Section */}
-      <section id="services" className="relative py-20 bg-gradient-to-b from-white via-purple-50/20 to-white overflow-hidden">
-        <div className="absolute top-40 left-0 w-96 h-96 bg-gradient-to-r from-purple-200/20 to-transparent rounded-full blur-3xl"></div>
+      <section id="services" className="relative py-20 bg-gradient-to-b from-white via-blue-50/20 to-white overflow-hidden">
+        <div className="absolute top-40 left-0 w-96 h-96 bg-gradient-to-r from-[#3d8eb3]/10 to-transparent rounded-full blur-3xl"></div>
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="text-center mb-16">
@@ -456,10 +456,10 @@ function HomePage() {
             <div className="space-y-4">
               {services.map((service, index) => {
                 const serviceColors = [
-                  { active: 'from-blue-600 to-cyan-600', inactive: 'blue-600' },
-                  { active: 'from-emerald-600 to-teal-600', inactive: 'emerald-600' },
-                  { active: 'from-purple-600 to-pink-600', inactive: 'purple-600' },
-                  { active: 'from-orange-600 to-amber-600', inactive: 'orange-600' },
+                  { active: 'from-[#3d8eb3] to-[#2c7a9e]', inactive: '[#3d8eb3]' },
+                  { active: 'from-[#b0d136] to-[#8fb52a]', inactive: '[#b0d136]' },
+                  { active: 'from-[#5c5d5d] to-[#4a4b4b]', inactive: '[#5c5d5d]' },
+                  { active: 'from-[#3d8eb3] to-[#5fa68f]', inactive: '[#3d8eb3]' },
                 ];
                 const color = serviceColors[index % serviceColors.length];
 
@@ -540,7 +540,7 @@ function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <div className="inline-block mb-4">
-              <span className="bg-gradient-to-r from-emerald-600 to-teal-600 text-white px-4 py-1 rounded-full text-sm font-semibold">
+              <span className="bg-gradient-to-r from-[#3d8eb3] to-[#b0d136] text-white px-4 py-1 rounded-full text-sm font-semibold">
                 INDUSTRIES
               </span>
             </div>
@@ -557,13 +557,13 @@ function HomePage() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
             {industries.map((industry, index) => {
               const colors = [
-                { bg: 'from-rose-500 to-pink-600', border: 'rose-500', icon: 'rose-500' },
-                { bg: 'from-blue-500 to-cyan-600', border: 'blue-500', icon: 'blue-500' },
-                { bg: 'from-violet-500 to-purple-600', border: 'violet-500', icon: 'violet-500' },
-                { bg: 'from-green-500 to-emerald-600', border: 'green-500', icon: 'green-500' },
-                { bg: 'from-orange-500 to-amber-600', border: 'orange-500', icon: 'orange-500' },
-                { bg: 'from-pink-500 to-rose-600', border: 'pink-500', icon: 'pink-500' },
-                { bg: 'from-teal-500 to-cyan-600', border: 'teal-500', icon: 'teal-500' },
+                { bg: 'from-[#3d8eb3] to-[#2c7a9e]', border: '[#3d8eb3]', icon: '[#3d8eb3]' },
+                { bg: 'from-[#b0d136] to-[#8fb52a]', border: '[#b0d136]', icon: '[#b0d136]' },
+                { bg: 'from-[#5c5d5d] to-[#4a4b4b]', border: '[#5c5d5d]', icon: '[#5c5d5d]' },
+                { bg: 'from-[#3d8eb3] to-[#5fa68f]', border: '[#3d8eb3]', icon: '[#3d8eb3]' },
+                { bg: 'from-[#5fa68f] to-[#b0d136]', border: '[#b0d136]', icon: '[#b0d136]' },
+                { bg: 'from-[#2c7a9e] to-[#3d8eb3]', border: '[#3d8eb3]', icon: '[#3d8eb3]' },
+                { bg: 'from-[#8fb52a] to-[#b0d136]', border: '[#b0d136]', icon: '[#b0d136]' },
               ];
               const color = colors[index % colors.length];
 
@@ -594,11 +594,11 @@ function HomePage() {
       </section>
 
       {/* Testimonials */}
-      <section className="py-20 bg-gradient-to-br from-indigo-50/50 via-white to-pink-50/50">
+      <section className="py-20 bg-gradient-to-br from-blue-50/50 via-white to-green-50/50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <div className="inline-block mb-4">
-              <span className="bg-gradient-to-r from-indigo-600 to-pink-600 text-white px-4 py-1 rounded-full text-sm font-semibold">
+              <span className="bg-gradient-to-r from-[#3d8eb3] to-[#b0d136] text-white px-4 py-1 rounded-full text-sm font-semibold">
                 TESTIMONIALS
               </span>
             </div>
@@ -613,8 +613,8 @@ function HomePage() {
           <div className="grid md:grid-cols-2 gap-8">
             {testimonials.map((testimonial, index) => {
               const gradients = [
-                'from-blue-600 to-cyan-600',
-                'from-purple-600 to-pink-600',
+                'from-[#3d8eb3] to-[#2c7a9e]',
+                'from-[#b0d136] to-[#8fb52a]',
               ];
               const gradient = gradients[index % gradients.length];
 

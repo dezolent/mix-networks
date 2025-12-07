@@ -192,15 +192,15 @@ function AssistedLivingPage() {
                       <h3 className="font-bold text-[#5c5d5d] mb-1">Savings</h3>
                       <p className="text-xs text-gray-600">Reduce Telecom Costs</p>
                     </div>
-                    <div className="bg-gradient-to-br from-purple-50 to-purple-100 p-4 rounded-xl hover:shadow-lg transition-all duration-300 transform hover:scale-105">
-                      <div className="w-14 h-14 bg-gradient-to-br from-purple-500 to-purple-600 rounded-xl flex items-center justify-center mb-3 shadow-md">
+                    <div className="bg-gradient-to-br from-[#5c5d5d]/10 to-[#5c5d5d]/20 p-4 rounded-xl hover:shadow-lg transition-all duration-300 transform hover:scale-105">
+                      <div className="w-14 h-14 bg-gradient-to-br from-[#5c5d5d] to-[#4a4b4b] rounded-xl flex items-center justify-center mb-3 shadow-md">
                         <Users className="w-7 h-7 text-white" />
                       </div>
                       <h3 className="font-bold text-[#5c5d5d] mb-1">Support</h3>
                       <p className="text-xs text-gray-600">24/7 Expert Support</p>
                     </div>
-                    <div className="bg-gradient-to-br from-orange-50 to-orange-100 p-4 rounded-xl hover:shadow-lg transition-all duration-300 transform hover:scale-105">
-                      <div className="w-14 h-14 bg-gradient-to-br from-orange-500 to-orange-600 rounded-xl flex items-center justify-center mb-3 shadow-md">
+                    <div className="bg-gradient-to-br from-[#b0d136]/10 to-[#b0d136]/20 p-4 rounded-xl hover:shadow-lg transition-all duration-300 transform hover:scale-105">
+                      <div className="w-14 h-14 bg-gradient-to-br from-[#b0d136] to-[#8fb52a] rounded-xl flex items-center justify-center mb-3 shadow-md">
                         <Globe className="w-7 h-7 text-white" />
                       </div>
                       <h3 className="font-bold text-[#5c5d5d] mb-1">Reliable</h3>
@@ -219,7 +219,7 @@ function AssistedLivingPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <div className="inline-block mb-4">
-              <span className="text-xs font-bold text-purple-600 bg-purple-100 px-3 py-1 rounded-full">WHY MIX NETWORKS</span>
+              <span className="text-xs font-bold text-[#3d8eb3] bg-[#3d8eb3]/10 px-3 py-1 rounded-full">WHY MIX NETWORKS</span>
             </div>
             <h2 className="text-4xl font-bold mb-4">
               <span className="bg-gradient-to-r from-[#5c5d5d] to-[#3d8eb3] bg-clip-text text-transparent">
@@ -253,8 +253,8 @@ function AssistedLivingPage() {
               </p>
             </div>
 
-            <div className="text-center p-6 rounded-xl bg-gradient-to-br from-purple-50 to-white hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 border-2 border-transparent hover:border-purple-200">
-              <div className="w-20 h-20 bg-gradient-to-br from-purple-500 to-purple-600 rounded-2xl flex items-center justify-center mx-auto mb-4 shadow-lg">
+            <div className="text-center p-6 rounded-xl bg-gradient-to-br from-[#5c5d5d]/10 to-white hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 border-2 border-transparent hover:border-[#5c5d5d]/30">
+              <div className="w-20 h-20 bg-gradient-to-br from-[#5c5d5d] to-[#4a4b4b] rounded-2xl flex items-center justify-center mx-auto mb-4 shadow-lg">
                 <Zap className="w-10 h-10 text-white" />
               </div>
               <h3 className="text-xl font-semibold text-[#5c5d5d] mb-2">Operational Efficiency</h3>
@@ -263,8 +263,8 @@ function AssistedLivingPage() {
               </p>
             </div>
 
-            <div className="text-center p-6 rounded-xl bg-gradient-to-br from-orange-50 to-white hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 border-2 border-transparent hover:border-orange-200">
-              <div className="w-20 h-20 bg-gradient-to-br from-orange-500 to-orange-600 rounded-2xl flex items-center justify-center mx-auto mb-4 shadow-lg">
+            <div className="text-center p-6 rounded-xl bg-gradient-to-br from-[#b0d136]/10 to-white hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 border-2 border-transparent hover:border-[#b0d136]/30">
+              <div className="w-20 h-20 bg-gradient-to-br from-[#b0d136] to-[#8fb52a] rounded-2xl flex items-center justify-center mx-auto mb-4 shadow-lg">
                 <Users className="w-10 h-10 text-white" />
               </div>
               <h3 className="text-xl font-semibold text-[#5c5d5d] mb-2">Compliance Assurance</h3>
@@ -281,7 +281,7 @@ function AssistedLivingPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <div className="inline-block mb-4">
-              <span className="text-xs font-bold text-emerald-600 bg-emerald-100 px-3 py-1 rounded-full">COMPLETE SOLUTIONS</span>
+              <span className="text-xs font-bold text-[#b0d136] bg-[#b0d136]/10 px-3 py-1 rounded-full">COMPLETE SOLUTIONS</span>
             </div>
             <h2 className="text-4xl font-bold mb-4">
               <span className="bg-gradient-to-r from-[#3d8eb3] to-[#b0d136] bg-clip-text text-transparent">
@@ -298,10 +298,10 @@ function AssistedLivingPage() {
             <div className="space-y-4">
               {services.map((service, index) => {
                 const serviceColors = [
-                  { active: 'from-blue-600 to-cyan-600', inactive: 'from-blue-50 to-blue-100', icon: 'blue-600', border: 'border-blue-200' },
-                  { active: 'from-emerald-600 to-teal-600', inactive: 'from-emerald-50 to-emerald-100', icon: 'emerald-600', border: 'border-emerald-200' },
-                  { active: 'from-purple-600 to-pink-600', inactive: 'from-purple-50 to-purple-100', icon: 'purple-600', border: 'border-purple-200' },
-                  { active: 'from-orange-600 to-amber-600', inactive: 'from-orange-50 to-orange-100', icon: 'orange-600', border: 'border-orange-200' },
+                  { active: 'from-[#3d8eb3] to-[#2c7a9e]', inactive: 'from-blue-50 to-blue-100', icon: '[#3d8eb3]', border: 'border-blue-200' },
+                  { active: 'from-[#b0d136] to-[#8fb52a]', inactive: 'from-green-50 to-green-100', icon: '[#b0d136]', border: 'border-green-200' },
+                  { active: 'from-[#5c5d5d] to-[#4a4b4b]', inactive: 'from-gray-50 to-gray-100', icon: '[#5c5d5d]', border: 'border-gray-200' },
+                  { active: 'from-[#3d8eb3] to-[#5fa68f]', inactive: 'from-blue-50 to-green-50', icon: '[#3d8eb3]', border: 'border-blue-200' },
                 ];
                 const colors = serviceColors[index];
 
@@ -380,7 +380,7 @@ function AssistedLivingPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <div className="inline-block mb-4">
-              <span className="text-xs font-bold text-orange-600 bg-orange-100 px-3 py-1 rounded-full">SCALABLE SOLUTIONS</span>
+              <span className="text-xs font-bold text-[#b0d136] bg-[#b0d136]/10 px-3 py-1 rounded-full">SCALABLE SOLUTIONS</span>
             </div>
             <h2 className="text-4xl font-bold mb-4">
               <span className="bg-gradient-to-r from-[#5c5d5d] to-[#3d8eb3] bg-clip-text text-transparent">
@@ -463,9 +463,9 @@ function AssistedLivingPage() {
               </p>
             </div>
 
-            <div className="bg-gradient-to-br from-orange-50 to-white p-8 rounded-xl hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 border-2 border-orange-100">
+            <div className="bg-gradient-to-br from-[#b0d136]/10 to-white p-8 rounded-xl hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 border-2 border-[#b0d136]/20">
               <div className="text-center mb-6">
-                <div className="w-20 h-20 bg-gradient-to-br from-orange-500 to-orange-600 rounded-2xl flex items-center justify-center mx-auto mb-4 shadow-lg">
+                <div className="w-20 h-20 bg-gradient-to-br from-[#b0d136] to-[#8fb52a] rounded-2xl flex items-center justify-center mx-auto mb-4 shadow-lg">
                   <Building className="w-10 h-10 text-white" />
                 </div>
                 <h3 className="text-2xl font-bold text-[#5c5d5d] mb-2">Enterprise</h3>
@@ -506,7 +506,7 @@ function AssistedLivingPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <div className="inline-block mb-4">
-              <span className="text-xs font-bold text-blue-600 bg-blue-100 px-3 py-1 rounded-full">CLIENT SUCCESS STORIES</span>
+              <span className="text-xs font-bold text-[#3d8eb3] bg-[#3d8eb3]/10 px-3 py-1 rounded-full">CLIENT SUCCESS STORIES</span>
             </div>
             <h2 className="text-4xl font-bold mb-4">
               <span className="bg-gradient-to-r from-[#3d8eb3] to-[#b0d136] bg-clip-text text-transparent">
@@ -518,8 +518,8 @@ function AssistedLivingPage() {
           <div className="grid md:grid-cols-2 gap-8">
             {testimonials.map((testimonial, index) => {
               const gradients = [
-                { bar: 'from-blue-500 to-cyan-500', avatar: 'from-blue-500 to-blue-600' },
-                { bar: 'from-emerald-500 to-teal-500', avatar: 'from-emerald-500 to-emerald-600' }
+                { bar: 'from-[#3d8eb3] to-[#2c7a9e]', avatar: 'from-[#3d8eb3] to-[#2c7a9e]' },
+                { bar: 'from-[#b0d136] to-[#8fb52a]', avatar: 'from-[#b0d136] to-[#8fb52a]' }
               ];
               const gradient = gradients[index % gradients.length];
 

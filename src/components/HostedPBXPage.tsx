@@ -93,19 +93,33 @@ function HostedPBXPage() {
       </header>
 
       {/* Hero Section */}
-      <section className="pt-32 pb-16 bg-gradient-to-br from-[#3d8eb3] to-[#2c6a85]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="relative pt-32 pb-20 bg-gradient-to-br from-[#3d8eb3] via-[#5fa68f] to-[#b0d136] overflow-hidden">
+        {/* Decorative background elements */}
+        <div className="absolute top-0 left-0 w-full h-full overflow-hidden">
+          <div className="absolute top-10 right-1/4 w-96 h-96 bg-white/10 rounded-full blur-3xl"></div>
+          <div className="absolute bottom-10 left-1/3 w-80 h-80 bg-white/10 rounded-full blur-3xl"></div>
+        </div>
+
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="text-center text-white">
-            <h1 className="text-5xl lg:text-6xl font-bold mb-6">
-              <span className="text-white">Your Business Deserves a </span>
-              <span className="bg-gradient-to-r from-yellow-100 via-lime-200 to-yellow-100 bg-clip-text text-transparent">Phone System</span><br />
-              <span className="bg-gradient-to-r from-lime-200 via-yellow-100 to-white bg-clip-text text-transparent">That Works as Hard as You Do</span>
+            <div className="inline-flex items-center gap-2 bg-white/20 px-4 py-2 rounded-full mb-6 border border-white/30 backdrop-blur-sm">
+              <span className="w-2 h-2 bg-[#b0d136] rounded-full animate-pulse"></span>
+              <span className="text-sm font-semibold text-white">HOSTED PBX SOLUTIONS</span>
+            </div>
+
+            <h1 className="text-5xl lg:text-6xl font-bold mb-6 leading-tight">
+              <span className="text-white drop-shadow-lg">Your Business Deserves a </span>
+              <span className="block bg-gradient-to-r from-white via-yellow-100 to-lime-200 bg-clip-text text-transparent drop-shadow-2xl">Phone System</span>
+              <span className="block bg-gradient-to-r from-lime-200 via-yellow-100 to-white bg-clip-text text-transparent drop-shadow-2xl">That Works as Hard as You Do</span>
             </h1>
-            <p className="text-2xl mb-8 text-white/90">
+            <p className="text-xl lg:text-2xl mb-8 text-white/95 max-w-4xl mx-auto leading-relaxed drop-shadow-md">
               MIX Networks® Hosted PBX: Enterprise-grade cloud communications<br />without the enterprise price tag or complexity.
             </p>
-            <button className="bg-[#b0d136] text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-[#9bc42a] transition-all duration-300 transform hover:scale-105">
-              Get Started Today
+            <button className="bg-white text-[#3d8eb3] px-8 py-4 rounded-xl text-lg font-bold hover:bg-gray-50 transition-all duration-300 transform hover:scale-105 shadow-2xl hover:shadow-3xl">
+              <span className="flex items-center justify-center gap-2">
+                Get Started Today
+                <ArrowRight className="w-5 h-5" />
+              </span>
             </button>
           </div>
         </div>

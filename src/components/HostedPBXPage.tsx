@@ -97,7 +97,9 @@ function HostedPBXPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center text-white">
             <h1 className="text-5xl lg:text-6xl font-bold mb-6">
-              Your Business Deserves a Phone System<br />That Works as Hard as You Do
+              <span className="text-white">Your Business Deserves a </span>
+              <span className="bg-gradient-to-r from-yellow-100 via-lime-200 to-yellow-100 bg-clip-text text-transparent">Phone System</span><br />
+              <span className="bg-gradient-to-r from-lime-200 via-yellow-100 to-white bg-clip-text text-transparent">That Works as Hard as You Do</span>
             </h1>
             <p className="text-2xl mb-8 text-white/90">
               MIX Networks® Hosted PBX: Enterprise-grade cloud communications<br />without the enterprise price tag or complexity.

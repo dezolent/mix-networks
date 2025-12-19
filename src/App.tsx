@@ -6,6 +6,7 @@ import EducationPage from './components/EducationPage';
 import HostedPBXPage from './components/HostedPBXPage';
 import BusinessContinuityPage from './components/BusinessContinuityPage';
 import POTSReplacementPage from './components/POTSReplacementPage';
+import POTSROIPage from './components/POTSROIPage';
 import NetworkPage from './components/NetworkPage';
 import AboutPage from './components/AboutPage';
 import ContactPage from './components/ContactPage';
@@ -20,6 +21,7 @@ function App() {
         <Route path="/hosted-pbx" element={<HostedPBXPage />} />
         <Route path="/business-continuity" element={<BusinessContinuityPage />} />
         <Route path="/pots-replacement" element={<POTSReplacementPage />} />
+        <Route path="/pots-in-a-box" element={<POTSROIPage />} />
         <Route path="/network" element={<NetworkPage />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/contact" element={<ContactPage />} />

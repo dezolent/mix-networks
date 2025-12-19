@@ -163,34 +163,34 @@ function POTSReplacementPage() {
             </h2>
           </div>
 
-          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-4">
             {[
-              { icon: <Printer className="w-8 h-8" />, label: "FAX", color: "from-[#3d8eb3] to-[#2c7a9e]" },
-              { icon: <Gauge className="w-8 h-8" />, label: "Meter Reading", color: "from-[#b0d136] to-[#8fb52a]" },
-              { icon: <BellRing className="w-8 h-8" />, label: "Burglar & Fire Alarm", color: "from-[#5c5d5d] to-[#4a4b4b]" },
-              { icon: <ShoppingCart className="w-8 h-8" />, label: "Point of Sale Terminals", color: "from-[#3d8eb3] to-[#5fa68f]" },
-              { icon: <PhoneCall className="w-8 h-8" />, label: "Ring-Down (Audiodial)", color: "from-[#b0d136] to-[#8fb52a]" },
-              { icon: <Monitor className="w-8 h-8" />, label: "Vending Machines", color: "from-[#5c5d5d] to-[#4a4b4b]" },
-              { icon: <Building2 className="w-8 h-8" />, label: "Elevator, Paging, Taxi", color: "from-[#3d8eb3] to-[#2c7a9e]" },
-              { icon: <Banknote className="w-8 h-8" />, label: "ATM Machines", color: "from-[#b0d136] to-[#8fb52a]" },
-              { icon: <DoorOpen className="w-8 h-8" />, label: "Apartment Call Box", color: "from-[#5c5d5d] to-[#4a4b4b]" },
-              { icon: <Activity className="w-8 h-8" />, label: "Telemetry", color: "from-[#3d8eb3] to-[#5fa68f]" },
-              { icon: <Lock className="w-8 h-8" />, label: "Gate Access", color: "from-[#b0d136] to-[#8fb52a]" },
-              { icon: <Server className="w-8 h-8" />, label: "SMB Router/Gateway", color: "from-[#3d8eb3] to-[#2c7a9e]" },
-              { icon: <Router className="w-8 h-8" />, label: "Analog M2M", color: "from-[#5c5d5d] to-[#4a4b4b]" },
-              { icon: <Signal className="w-8 h-8" />, label: "4G/5G Internet Access", color: "from-[#b0d136] to-[#8fb52a]" },
-              { icon: <Monitor className="w-8 h-8" />, label: "Legacy Modem Support", color: "from-[#3d8eb3] to-[#5fa68f]" },
-              { icon: <Wifi className="w-8 h-8" />, label: "Wireless Wi-Fi Access", color: "from-[#b0d136] to-[#8fb52a]" }
+              { icon: <Printer className="w-6 h-6" />, label: "FAX", color: "from-[#3d8eb3] to-[#2c7a9e]" },
+              { icon: <Gauge className="w-6 h-6" />, label: "Meter Reading", color: "from-[#b0d136] to-[#8fb52a]" },
+              { icon: <BellRing className="w-6 h-6" />, label: "Burglar & Fire Alarm", color: "from-[#5c5d5d] to-[#4a4b4b]" },
+              { icon: <ShoppingCart className="w-6 h-6" />, label: "Point of Sale Terminals", color: "from-[#3d8eb3] to-[#5fa68f]" },
+              { icon: <PhoneCall className="w-6 h-6" />, label: "Ring-Down (Audiodial)", color: "from-[#b0d136] to-[#8fb52a]" },
+              { icon: <Monitor className="w-6 h-6" />, label: "Vending Machines", color: "from-[#5c5d5d] to-[#4a4b4b]" },
+              { icon: <Building2 className="w-6 h-6" />, label: "Elevator, Paging, Taxi", color: "from-[#3d8eb3] to-[#2c7a9e]" },
+              { icon: <Banknote className="w-6 h-6" />, label: "ATM Machines", color: "from-[#b0d136] to-[#8fb52a]" },
+              { icon: <DoorOpen className="w-6 h-6" />, label: "Apartment Call Box", color: "from-[#5c5d5d] to-[#4a4b4b]" },
+              { icon: <Activity className="w-6 h-6" />, label: "Telemetry", color: "from-[#3d8eb3] to-[#5fa68f]" },
+              { icon: <Lock className="w-6 h-6" />, label: "Gate Access", color: "from-[#b0d136] to-[#8fb52a]" },
+              { icon: <Server className="w-6 h-6" />, label: "SMB Router/Gateway", color: "from-[#3d8eb3] to-[#2c7a9e]" },
+              { icon: <Router className="w-6 h-6" />, label: "Analog M2M", color: "from-[#5c5d5d] to-[#4a4b4b]" },
+              { icon: <Signal className="w-6 h-6" />, label: "4G/5G Internet Access", color: "from-[#b0d136] to-[#8fb52a]" },
+              { icon: <Monitor className="w-6 h-6" />, label: "Legacy Modem Support", color: "from-[#3d8eb3] to-[#5fa68f]" },
+              { icon: <Wifi className="w-6 h-6" />, label: "Wireless Wi-Fi Access", color: "from-[#b0d136] to-[#8fb52a]" }
             ].map((item, index) => (
               <div
                 key={index}
-                className="group bg-white p-6 rounded-2xl hover:shadow-2xl transition-all duration-300 hover:scale-105 border-2 border-gray-100 hover:border-[#3d8eb3]/30"
+                className="group bg-white p-4 rounded-xl hover:shadow-xl transition-all duration-300 hover:scale-105 border border-gray-100 hover:border-[#3d8eb3]/30"
               >
                 <div className="text-center">
-                  <div className={`w-16 h-16 bg-gradient-to-br ${item.color} rounded-2xl flex items-center justify-center mx-auto mb-4 text-white shadow-lg group-hover:scale-110 transition-transform duration-300`}>
+                  <div className={`w-12 h-12 bg-gradient-to-br ${item.color} rounded-xl flex items-center justify-center mx-auto mb-3 text-white shadow-md group-hover:scale-110 transition-transform duration-300`}>
                     {item.icon}
                   </div>
-                  <p className="text-sm font-semibold text-gray-700 leading-snug">
+                  <p className="text-xs font-semibold text-gray-700 leading-tight">
                     {item.label}
                   </p>
                 </div>

@@ -84,32 +84,32 @@ function POTSROIPage() {
 
           <div className="grid md:grid-cols-3 gap-8">
             {/* Traditional POTS */}
-            <div className="bg-white rounded-2xl shadow-xl overflow-hidden border-2 border-red-200">
-              <div className="bg-gradient-to-br from-red-500 to-red-600 p-6 text-white">
+            <div className="bg-white rounded-2xl shadow-xl overflow-hidden border-2 border-amber-200">
+              <div className="bg-gradient-to-br from-amber-500 to-amber-600 p-6 text-white">
                 <Phone className="w-12 h-12 mb-4" />
                 <h3 className="text-2xl font-bold mb-2">Traditional POTS</h3>
-                <p className="text-red-100">Legacy Infrastructure</p>
+                <p className="text-amber-100">Legacy Infrastructure</p>
               </div>
               <div className="p-6">
                 <ul className="space-y-3">
                   <li className="flex items-start space-x-3">
-                    <span className="text-red-500 font-bold mt-1">•</span>
+                    <span className="text-amber-500 font-bold mt-1">•</span>
                     <span className="text-gray-700"><span className="font-semibold">Base line charges:</span> $80-200 per line monthly</span>
                   </li>
                   <li className="flex items-start space-x-3">
-                    <span className="text-red-500 font-bold mt-1">•</span>
+                    <span className="text-amber-500 font-bold mt-1">•</span>
                     <span className="text-gray-700"><span className="font-semibold">Feature additions:</span> $5-15 per feature monthly</span>
                   </li>
                   <li className="flex items-start space-x-3">
-                    <span className="text-red-500 font-bold mt-1">•</span>
+                    <span className="text-amber-500 font-bold mt-1">•</span>
                     <span className="text-gray-700"><span className="font-semibold">Long-distance:</span> $0.05-0.25 per minute</span>
                   </li>
                   <li className="flex items-start space-x-3">
-                    <span className="text-red-500 font-bold mt-1">•</span>
+                    <span className="text-amber-500 font-bold mt-1">•</span>
                     <span className="text-gray-700"><span className="font-semibold">Installation fees:</span> $100-300 per line</span>
                   </li>
                   <li className="flex items-start space-x-3">
-                    <span className="text-red-500 font-bold mt-1">•</span>
+                    <span className="text-amber-500 font-bold mt-1">•</span>
                     <span className="text-gray-700"><span className="font-semibold">Maintenance visits:</span> $150-250 per incident</span>
                   </li>
                 </ul>
@@ -196,7 +196,7 @@ function POTSROIPage() {
               <div className="space-y-4">
                 <div className="flex justify-between items-center">
                   <span className="text-gray-700">Current POTS cost:</span>
-                  <span className="font-bold text-red-600">$6,000/yr</span>
+                  <span className="font-bold text-amber-600">$6,000/yr</span>
                 </div>
                 <div className="flex justify-between items-center">
                   <span className="text-gray-700">VoIP alternative:</span>
@@ -226,7 +226,7 @@ function POTSROIPage() {
               <div className="space-y-4">
                 <div className="flex justify-between items-center">
                   <span className="text-gray-700">Current POTS cost:</span>
-                  <span className="font-bold text-red-600">$24,000/yr</span>
+                  <span className="font-bold text-amber-600">$24,000/yr</span>
                 </div>
                 <div className="flex justify-between items-center">
                   <span className="text-gray-700">Hybrid solution:</span>
@@ -256,7 +256,7 @@ function POTSROIPage() {
               <div className="space-y-4">
                 <div className="flex justify-between items-center">
                   <span className="text-gray-700">Current POTS cost:</span>
-                  <span className="font-bold text-red-600">$96,000/yr</span>
+                  <span className="font-bold text-amber-600">$96,000/yr</span>
                 </div>
                 <div className="flex justify-between items-center">
                   <span className="text-gray-700">Complete VoIP:</span>
@@ -323,7 +323,7 @@ function POTSROIPage() {
           </div>
 
           <div className="grid md:grid-cols-2 gap-8 mb-8">
-            <div className="bg-red-500 text-white rounded-2xl p-8">
+            <div className="bg-amber-600 text-white rounded-2xl p-8">
               <h3 className="text-2xl font-bold mb-6 flex items-center gap-2">
                 <TrendingDown className="w-8 h-8" />
                 Original POTS Infrastructure
@@ -503,11 +503,11 @@ function POTSROIPage() {
       </section>
 
       {/* The Urgency Factor */}
-      <section className="py-16 bg-gradient-to-br from-red-50 to-orange-50">
+      <section className="py-16 bg-gradient-to-br from-orange-50 to-amber-50">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="bg-white p-10 rounded-2xl border-2 border-red-300 shadow-2xl">
+          <div className="bg-white p-10 rounded-2xl border-2 border-orange-300 shadow-2xl">
             <div className="flex items-start space-x-6">
-              <div className="w-16 h-16 bg-red-500 rounded-full flex items-center justify-center flex-shrink-0">
+              <div className="w-16 h-16 bg-orange-500 rounded-full flex items-center justify-center flex-shrink-0">
                 <Clock className="w-8 h-8 text-white" />
               </div>
               <div>

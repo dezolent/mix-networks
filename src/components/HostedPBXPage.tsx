@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Phone, Mail, ChevronDown, CheckCircle, ArrowRight, Star, Users, DollarSign, Clock, Globe, Smartphone, Monitor, Shield, Zap, TrendingUp, Building } from 'lucide-react';
+import { Phone, Mail, ChevronDown, CheckCircle, ArrowRight, Star, Users, DollarSign, Clock, Globe, Smartphone, Monitor, Shield, Zap, TrendingUp, Building, Settings, PhoneCall, BarChart3, FileText, Bell } from 'lucide-react';
 import Footer from './Footer';
 
 function HostedPBXPage() {
@@ -138,6 +138,201 @@ function HostedPBXPage() {
               <Monitor className="w-24 h-24 text-[#3d8eb3] mx-auto mb-4" />
               <p className="text-xl text-gray-600">Admin Portal Interface Preview</p>
               <p className="text-gray-500">Intuitive dashboard for complete control</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Centralized Management Platform Section */}
+      <section className="py-20 bg-gradient-to-br from-blue-50/50 to-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <div className="inline-block mb-4">
+              <span className="bg-gradient-to-r from-[#3d8eb3] to-[#b0d136] text-white px-4 py-1 rounded-full text-sm font-semibold">
+                MANAGEMENT PLATFORM
+              </span>
+            </div>
+            <h2 className="text-4xl lg:text-5xl font-bold mb-4">
+              <span className="bg-gradient-to-r from-gray-900 to-gray-700 bg-clip-text text-transparent">
+                Centralized Hosted PBX Management Platform
+              </span>
+            </h2>
+            <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
+              The MIX Networks Hosted PBX platform is designed to make managing voice services simple, fast, and scalable. From a single intuitive dashboard, partners can create users, manage extensions, configure answering rules, assign DIDs, purchase or port phone numbers, and monitor call quality in real time.
+            </p>
+          </div>
+
+          <div className="bg-gradient-to-br from-white to-blue-50/30 rounded-2xl p-12 shadow-xl border-2 border-gray-100 mb-8">
+            <p className="text-lg text-gray-700 text-center leading-relaxed mb-12">
+              Whether onboarding a new customer or troubleshooting an issue, everything is built for efficiency and visibility.
+            </p>
+
+            <div className="grid md:grid-cols-2 gap-8">
+              <div className="group bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-1 border-2 border-transparent hover:border-[#3d8eb3]">
+                <div className="flex items-start space-x-4 mb-4">
+                  <div className="w-14 h-14 bg-gradient-to-br from-[#3d8eb3] to-[#2c7a9e] rounded-2xl flex items-center justify-center flex-shrink-0 shadow-lg group-hover:scale-110 transition-transform">
+                    <Settings className="w-7 h-7 text-white" />
+                  </div>
+                  <div>
+                    <h3 className="text-2xl font-bold text-gray-900 mb-2">Effortless Call Flow Control</h3>
+                  </div>
+                </div>
+                <p className="text-gray-600 leading-relaxed">
+                  Configure IVRs, answering rules, hunt groups, DIDs, voicemail, and routing in minutes. Build complex call flows without technical expertise.
+                </p>
+              </div>
+
+              <div className="group bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-1 border-2 border-transparent hover:border-[#b0d136]">
+                <div className="flex items-start space-x-4 mb-4">
+                  <div className="w-14 h-14 bg-gradient-to-br from-[#b0d136] to-[#8fb52a] rounded-2xl flex items-center justify-center flex-shrink-0 shadow-lg group-hover:scale-110 transition-transform">
+                    <PhoneCall className="w-7 h-7 text-white" />
+                  </div>
+                  <div>
+                    <h3 className="text-2xl font-bold text-gray-900 mb-2">Built-in Telecom Management</h3>
+                  </div>
+                </div>
+                <p className="text-gray-600 leading-relaxed">
+                  Purchase numbers, port existing lines, manage E911, and control CNAM directly from the TELCO module. Complete control in one place.
+                </p>
+              </div>
+
+              <div className="group bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-1 border-2 border-transparent hover:border-[#5c5d5d]">
+                <div className="flex items-start space-x-4 mb-4">
+                  <div className="w-14 h-14 bg-gradient-to-br from-[#5c5d5d] to-[#4a4b4b] rounded-2xl flex items-center justify-center flex-shrink-0 shadow-lg group-hover:scale-110 transition-transform">
+                    <Monitor className="w-7 h-7 text-white" />
+                  </div>
+                  <div>
+                    <h3 className="text-2xl font-bold text-gray-900 mb-2">White-Label Ready</h3>
+                  </div>
+                </div>
+                <p className="text-gray-600 leading-relaxed">
+                  Brand the portal, domains, notifications, and user experience as your own. Deliver a seamless branded experience to your customers.
+                </p>
+              </div>
+
+              <div className="group bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-1 border-2 border-transparent hover:border-[#3d8eb3]">
+                <div className="flex items-start space-x-4 mb-4">
+                  <div className="w-14 h-14 bg-gradient-to-br from-[#3d8eb3] to-[#5fa68f] rounded-2xl flex items-center justify-center flex-shrink-0 shadow-lg group-hover:scale-110 transition-transform">
+                    <BarChart3 className="w-7 h-7 text-white" />
+                  </div>
+                  <div>
+                    <h3 className="text-2xl font-bold text-gray-900 mb-2">Advanced Diagnostics Tools</h3>
+                  </div>
+                </div>
+                <p className="text-gray-600 leading-relaxed">
+                  Call traces, QoS monitoring, MOS scoring, and real-time device status simplify troubleshooting and reduce support time dramatically.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Hosted PBX Key Features Section */}
+      <section className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <div className="inline-block mb-4">
+              <span className="bg-gradient-to-r from-[#3d8eb3] to-[#b0d136] text-white px-4 py-1 rounded-full text-sm font-semibold">
+                KEY FEATURES
+              </span>
+            </div>
+            <h2 className="text-4xl lg:text-5xl font-bold mb-4">
+              <span className="bg-gradient-to-r from-gray-900 to-gray-700 bg-clip-text text-transparent">
+                Hosted PBX Key Features
+              </span>
+            </h2>
+            <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed mb-6">
+              Deliver a professional, responsive calling experience that keeps customers engaged and reduces missed opportunities. MIX Networks' Hosted PBX gives resellers the tools to design intelligent call flows that adapt to business hours, call volume, and customer needs—without complexity.
+            </p>
+            <p className="text-lg text-gray-600 max-w-4xl mx-auto leading-relaxed">
+              Whether supporting a single office or a multi-location organization, advanced call control helps your customers answer calls faster, route them smarter, and deliver consistent service every time.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-8">
+            {/* Auto Attendants & IVRs */}
+            <div className="bg-gradient-to-br from-white to-blue-50/30 rounded-2xl p-10 shadow-xl border-2 border-gray-100 hover:border-[#3d8eb3] hover:shadow-2xl transition-all duration-300">
+              <div className="flex items-start space-x-4 mb-6">
+                <div className="w-16 h-16 bg-gradient-to-br from-[#3d8eb3] to-[#2c7a9e] rounded-2xl flex items-center justify-center flex-shrink-0 shadow-lg">
+                  <PhoneCall className="w-8 h-8 text-white" />
+                </div>
+                <div>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-2">Auto Attendants & IVRs</h3>
+                </div>
+              </div>
+              <p className="text-gray-700 leading-relaxed mb-6">
+                Create branded, multi-level auto attendants that guide callers to the right destination quickly. IVRs reduce call handling time, eliminate confusion, and ensure customers reach the correct department without unnecessary transfers.
+              </p>
+              <div className="bg-gradient-to-r from-[#3d8eb3]/10 to-[#b0d136]/10 rounded-xl p-6 border-l-4 border-[#3d8eb3]">
+                <p className="text-sm font-semibold text-gray-900 mb-2">BENEFIT</p>
+                <p className="text-gray-700">
+                  Improves first-call resolution and delivers a consistent, professional caller experience.
+                </p>
+              </div>
+            </div>
+
+            {/* Call Queues & Hunt Groups */}
+            <div className="bg-gradient-to-br from-white to-green-50/30 rounded-2xl p-10 shadow-xl border-2 border-gray-100 hover:border-[#b0d136] hover:shadow-2xl transition-all duration-300">
+              <div className="flex items-start space-x-4 mb-6">
+                <div className="w-16 h-16 bg-gradient-to-br from-[#b0d136] to-[#8fb52a] rounded-2xl flex items-center justify-center flex-shrink-0 shadow-lg">
+                  <Users className="w-8 h-8 text-white" />
+                </div>
+                <div>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-2">Call Queues & Hunt Groups</h3>
+                </div>
+              </div>
+              <p className="text-gray-700 leading-relaxed mb-6">
+                Distribute inbound calls intelligently using ring-all, linear, round-robin, or priority-based routing. Call queues help manage high call volumes while hunt groups ensure no call goes unanswered.
+              </p>
+              <div className="bg-gradient-to-r from-[#b0d136]/10 to-[#3d8eb3]/10 rounded-xl p-6 border-l-4 border-[#b0d136]">
+                <p className="text-sm font-semibold text-gray-900 mb-2">BENEFIT</p>
+                <p className="text-gray-700">
+                  Reduces missed calls, shortens wait times, and increases customer satisfaction during peak periods.
+                </p>
+              </div>
+            </div>
+
+            {/* Time-Based Call Routing */}
+            <div className="bg-gradient-to-br from-white to-blue-50/30 rounded-2xl p-10 shadow-xl border-2 border-gray-100 hover:border-[#5c5d5d] hover:shadow-2xl transition-all duration-300">
+              <div className="flex items-start space-x-4 mb-6">
+                <div className="w-16 h-16 bg-gradient-to-br from-[#5c5d5d] to-[#4a4b4b] rounded-2xl flex items-center justify-center flex-shrink-0 shadow-lg">
+                  <Clock className="w-8 h-8 text-white" />
+                </div>
+                <div>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-2">Time-Based Call Routing</h3>
+                </div>
+              </div>
+              <p className="text-gray-700 leading-relaxed mb-6">
+                Route calls differently based on business hours, holidays, or custom schedules. Automatically send callers to live staff, voicemail, answering services, or after-hours messages without manual intervention.
+              </p>
+              <div className="bg-gradient-to-r from-[#5c5d5d]/10 to-[#3d8eb3]/10 rounded-xl p-6 border-l-4 border-[#5c5d5d]">
+                <p className="text-sm font-semibold text-gray-900 mb-2">BENEFIT</p>
+                <p className="text-gray-700">
+                  Ensures customers always reach the right resource at the right time—without additional staffing.
+                </p>
+              </div>
+            </div>
+
+            {/* Voicemail-to-Email */}
+            <div className="bg-gradient-to-br from-white to-green-50/30 rounded-2xl p-10 shadow-xl border-2 border-gray-100 hover:border-[#3d8eb3] hover:shadow-2xl transition-all duration-300">
+              <div className="flex items-start space-x-4 mb-6">
+                <div className="w-16 h-16 bg-gradient-to-br from-[#3d8eb3] to-[#5fa68f] rounded-2xl flex items-center justify-center flex-shrink-0 shadow-lg">
+                  <Bell className="w-8 h-8 text-white" />
+                </div>
+                <div>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-2">Voicemail-to-Email & Notifications</h3>
+                </div>
+              </div>
+              <p className="text-gray-700 leading-relaxed mb-6">
+                Convert voicemails into audio files delivered directly to email inboxes, keeping teams responsive even when away from their desks. Optional transcription helps prioritize urgent messages.
+              </p>
+              <div className="bg-gradient-to-r from-[#3d8eb3]/10 to-[#b0d136]/10 rounded-xl p-6 border-l-4 border-[#3d8eb3]">
+                <p className="text-sm font-semibold text-gray-900 mb-2">BENEFIT</p>
+                <p className="text-gray-700">
+                  Improves response times and prevents lost or overlooked customer inquiries.
+                </p>
+              </div>
             </div>
           </div>
         </div>

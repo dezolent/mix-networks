@@ -10,6 +10,8 @@ import POTSROIPage from './components/POTSROIPage';
 import NetworkPage from './components/NetworkPage';
 import AboutPage from './components/AboutPage';
 import ContactPage from './components/ContactPage';
+import LibraryPage from './components/LibraryPage';
+import LibraryCategoryPage from './components/LibraryCategoryPage';
 
 function App() {
   return (
@@ -25,6 +27,10 @@ function App() {
         <Route path="/network" element={<NetworkPage />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/contact" element={<ContactPage />} />
+        <Route path="/library" element={<LibraryPage />} />
+        <Route path="/library/blogs" element={<LibraryCategoryPage category="blog" />} />
+        <Route path="/library/data-sheets" element={<LibraryCategoryPage category="data_sheet" />} />
+        <Route path="/library/use-cases" element={<LibraryCategoryPage category="use_case" />} />
       </Routes>
     </Router>
   );

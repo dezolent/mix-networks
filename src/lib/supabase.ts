@@ -20,3 +20,14 @@ export interface LibraryResource {
   created_at: string;
   updated_at: string;
 }
+
+export interface HardwareProduct {
+  id: string;
+  title: string;
+  description: string[];
+  category: 'pots_replacement' | 'ip_phones' | 'routers_gateways' | 'headsets' | 'paging';
+  image_url: string | null;
+  datasheet_url: string;
+  created_at: string;
+  updated_at: string;
+}

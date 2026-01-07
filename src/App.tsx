@@ -12,6 +12,7 @@ import AboutPage from './components/AboutPage';
 import ContactPage from './components/ContactPage';
 import LibraryPage from './components/LibraryPage';
 import LibraryCategoryPage from './components/LibraryCategoryPage';
+import HardwarePage from './components/HardwarePage';
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
         <Route path="/library/blogs" element={<LibraryCategoryPage category="blog" />} />
         <Route path="/library/data-sheets" element={<LibraryCategoryPage category="data_sheet" />} />
         <Route path="/library/use-cases" element={<LibraryCategoryPage category="use_case" />} />
+        <Route path="/hardware" element={<HardwarePage />} />
       </Routes>
     </Router>
   );

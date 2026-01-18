@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import { Smartphone, Phone, Network, Headphones, Volume2, ExternalLink, Package } from 'lucide-react';
+import { Smartphone, Phone, Network, Headphones, Volume2, ExternalLink, Package, ArrowRight } from 'lucide-react';
 import { supabase, HardwareProduct } from '../lib/supabase';
+import Header from './Header';
 import Footer from './Footer';
 
 function HardwarePage() {
@@ -100,23 +101,34 @@ function HardwarePage() {
     title,
     icon,
     products,
-    bgColor
+    bgColor,
+    link
   }: {
     title: string;
     icon: React.ReactNode;
     products: HardwareProduct[];
     bgColor: string;
+    link: string;
   }) => (
     <section className="py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center gap-4 mb-8">
-          <div className={`w-14 h-14 ${bgColor} rounded-xl flex items-center justify-center shadow-lg`}>
-            {icon}
+        <div className="flex items-center justify-between mb-8">
+          <div className="flex items-center gap-4">
+            <div className={`w-14 h-14 ${bgColor} rounded-xl flex items-center justify-center shadow-lg`}>
+              {icon}
+            </div>
+            <div>
+              <h2 className="text-3xl font-bold text-gray-900">{title}</h2>
+              <p className="text-gray-600 mt-1">{products.length} products available</p>
+            </div>
           </div>
-          <div>
-            <h2 className="text-3xl font-bold text-gray-900">{title}</h2>
-            <p className="text-gray-600 mt-1">{products.length} products available</p>
-          </div>
+          <a
+            href={link}
+            className="flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-[#3d8eb3] to-[#5fa68f] text-white rounded-lg hover:shadow-lg transition-all duration-300 group"
+          >
+            <span className="font-semibold">View All</span>
+            <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+          </a>
         </div>
 
         {loading ? (
@@ -142,39 +154,7 @@ function HardwarePage() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-white">
-      <header className="fixed w-full z-50 bg-white shadow-md">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center py-4">
-            <a href="/" className="flex items-center space-x-3">
-              <img
-                src="/public/MIXLogo_Horizontal.png"
-                alt="MIX Networks"
-                className="h-12 w-auto"
-                onError={(e) => {
-                  e.currentTarget.style.display = 'none';
-                  const sibling = e.currentTarget.nextElementSibling;
-                  if (sibling instanceof HTMLElement) {
-                    sibling.style.display = 'block';
-                  }
-                }}
-              />
-              <div className="hidden text-2xl font-bold">
-                <span className="text-[#3d8eb3]">MIX</span>
-                <span className="text-[#b0d136] ml-1">NETWORKS</span>
-              </div>
-            </a>
-
-            <nav className="hidden md:flex items-center space-x-8">
-              <a href="/" className="text-gray-700 hover:text-[#3d8eb3] transition-colors">Home</a>
-              <a href="/#services" className="text-gray-700 hover:text-[#3d8eb3] transition-colors">Services</a>
-              <a href="/#industries" className="text-gray-700 hover:text-[#3d8eb3] transition-colors">Industries</a>
-              <a href="/#contact" className="bg-[#b0d136] text-white px-6 py-2 rounded-lg hover:bg-[#9bc42a] transition-colors">
-                Contact Us
-              </a>
-            </nav>
-          </div>
-        </div>
-      </header>
+      <Header />
 
       <section className="relative pt-32 pb-16 bg-gradient-to-br from-[#3d8eb3] via-[#5fa68f] to-[#b0d136]">
         <div className="absolute top-0 left-0 w-full h-full overflow-hidden">
@@ -208,6 +188,7 @@ function HardwarePage() {
         icon={<Phone className="w-7 h-7 text-white" />}
         products={potsProducts}
         bgColor="bg-gradient-to-br from-[#3d8eb3] to-[#2c7a9e]"
+        link="/hardware/pots-replacement"
       />
 
       <div className="bg-gradient-to-r from-gray-50 to-white py-1"></div>
@@ -217,6 +198,7 @@ function HardwarePage() {
         icon={<Smartphone className="w-7 h-7 text-white" />}
         products={ipPhones}
         bgColor="bg-gradient-to-br from-[#5fa68f] to-[#4a8e7a]"
+        link="/hardware/ip-phones"
       />
 
       <div className="bg-gradient-to-r from-gray-50 to-white py-1"></div>
@@ -226,6 +208,7 @@ function HardwarePage() {
         icon={<Network className="w-7 h-7 text-white" />}
         products={routers}
         bgColor="bg-gradient-to-br from-[#b0d136] to-[#9bc42a]"
+        link="/hardware/routers-gateways"
       />
 
       <div className="bg-gradient-to-r from-gray-50 to-white py-1"></div>
@@ -235,6 +218,7 @@ function HardwarePage() {
         icon={<Headphones className="w-7 h-7 text-white" />}
         products={headsets}
         bgColor="bg-gradient-to-br from-[#3d8eb3] to-[#5fa68f]"
+        link="/hardware/headsets"
       />
 
       <div className="bg-gradient-to-r from-gray-50 to-white py-1"></div>
@@ -244,6 +228,7 @@ function HardwarePage() {
         icon={<Volume2 className="w-7 h-7 text-white" />}
         products={paging}
         bgColor="bg-gradient-to-br from-[#5fa68f] to-[#b0d136]"
+        link="/hardware/paging"
       />
 
       <Footer />

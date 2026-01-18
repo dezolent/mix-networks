@@ -26,6 +26,9 @@ export interface HardwareProduct {
   title: string;
   description: string[];
   category: 'pots_replacement' | 'ip_phones' | 'routers_gateways' | 'headsets' | 'paging';
+  device_class: string | null;
+  make: string | null;
+  model: string | null;
   image_url: string | null;
   datasheet_url: string;
   created_at: string;

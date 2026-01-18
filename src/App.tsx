@@ -13,6 +13,11 @@ import ContactPage from './components/ContactPage';
 import LibraryPage from './components/LibraryPage';
 import LibraryCategoryPage from './components/LibraryCategoryPage';
 import HardwarePage from './components/HardwarePage';
+import IPPhonesPage from './components/IPPhonesPage';
+import POTSReplacementCategoryPage from './components/POTSReplacementCategoryPage';
+import RoutersGatewaysPage from './components/RoutersGatewaysPage';
+import HeadsetsPage from './components/HeadsetsPage';
+import PagingPage from './components/PagingPage';
 
 function App() {
   return (
@@ -33,6 +38,11 @@ function App() {
         <Route path="/library/data-sheets" element={<LibraryCategoryPage category="data_sheet" />} />
         <Route path="/library/use-cases" element={<LibraryCategoryPage category="use_case" />} />
         <Route path="/hardware" element={<HardwarePage />} />
+        <Route path="/hardware/ip-phones" element={<IPPhonesPage />} />
+        <Route path="/hardware/pots-replacement" element={<POTSReplacementCategoryPage />} />
+        <Route path="/hardware/routers-gateways" element={<RoutersGatewaysPage />} />
+        <Route path="/hardware/headsets" element={<HeadsetsPage />} />
+        <Route path="/hardware/paging" element={<PagingPage />} />
       </Routes>
     </Router>
   );

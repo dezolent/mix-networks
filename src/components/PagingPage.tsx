@@ -137,6 +137,31 @@ function PagingPage() {
         </div>
       </section>
 
+      <section className="py-20 bg-gradient-to-br from-[#5fa68f] to-[#b0d136]">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="text-4xl font-bold text-white mb-6">
+            Need an IP Paging System for Your School, Hospital, or Warehouse?
+          </h2>
+          <p className="text-xl text-white/90 mb-8 leading-relaxed">
+            Deploy modern IP-based paging solutions that integrate seamlessly with your VoIP phone system. From single-zone to multi-zone paging, we'll design the perfect solution for your facility's needs.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <a
+              href="/contact"
+              className="inline-flex items-center justify-center px-8 py-4 bg-white text-[#5fa68f] rounded-lg font-bold text-lg hover:bg-gray-100 transition-all duration-300 shadow-xl hover:shadow-2xl hover:scale-105"
+            >
+              Request Paging Quote
+            </a>
+            <a
+              href="/#contact"
+              className="inline-flex items-center justify-center px-8 py-4 bg-[#3d8eb3] text-white rounded-lg font-bold text-lg hover:bg-[#2c7a9e] transition-all duration-300 shadow-xl hover:shadow-2xl hover:scale-105"
+            >
+              Discuss Your Project
+            </a>
+          </div>
+        </div>
+      </section>
+
       <Footer />
     </div>
   );

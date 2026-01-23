@@ -232,6 +232,31 @@ function IPPhonesPage() {
         </div>
       </section>
 
+      <section className="py-20 bg-gradient-to-br from-[#3d8eb3] to-[#5fa68f]">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="text-4xl font-bold text-white mb-6">
+            Ready to Upgrade Your Business VoIP Phone System?
+          </h2>
+          <p className="text-xl text-white/90 mb-8 leading-relaxed">
+            Get expert guidance on selecting the perfect IP phones for your organization. Our team will help you choose between wired and wireless solutions from top manufacturers like Poly and Yealink.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <a
+              href="/contact"
+              className="inline-flex items-center justify-center px-8 py-4 bg-white text-[#3d8eb3] rounded-lg font-bold text-lg hover:bg-gray-100 transition-all duration-300 shadow-xl hover:shadow-2xl hover:scale-105"
+            >
+              Request a Quote
+            </a>
+            <a
+              href="/#contact"
+              className="inline-flex items-center justify-center px-8 py-4 bg-[#b0d136] text-white rounded-lg font-bold text-lg hover:bg-[#9bc42a] transition-all duration-300 shadow-xl hover:shadow-2xl hover:scale-105"
+            >
+              Schedule Consultation
+            </a>
+          </div>
+        </div>
+      </section>
+
       <Footer />
     </div>
   );

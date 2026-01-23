@@ -137,6 +137,31 @@ function POTSReplacementCategoryPage() {
         </div>
       </section>
 
+      <section className="py-20 bg-gradient-to-br from-[#3d8eb3] to-[#2c7a9e]">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="text-4xl font-bold text-white mb-6">
+            Need Help Transitioning from Legacy Copper Phone Lines?
+          </h2>
+          <p className="text-xl text-white/90 mb-8 leading-relaxed">
+            Our POTS replacement specialists will ensure a seamless migration to modern VoIP technology while maintaining compatibility with elevators, alarms, fax machines, and other critical systems. Avoid service disruptions with our proven solutions.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <a
+              href="/contact"
+              className="inline-flex items-center justify-center px-8 py-4 bg-white text-[#3d8eb3] rounded-lg font-bold text-lg hover:bg-gray-100 transition-all duration-300 shadow-xl hover:shadow-2xl hover:scale-105"
+            >
+              Get POTS Migration Quote
+            </a>
+            <a
+              href="/#contact"
+              className="inline-flex items-center justify-center px-8 py-4 bg-[#b0d136] text-white rounded-lg font-bold text-lg hover:bg-[#9bc42a] transition-all duration-300 shadow-xl hover:shadow-2xl hover:scale-105"
+            >
+              Talk to an Expert
+            </a>
+          </div>
+        </div>
+      </section>
+
       <Footer />
     </div>
   );

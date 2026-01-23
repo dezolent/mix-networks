@@ -137,6 +137,31 @@ function RoutersGatewaysPage() {
         </div>
       </section>
 
+      <section className="py-20 bg-gradient-to-br from-[#b0d136] to-[#9bc42a]">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="text-4xl font-bold text-white mb-6">
+            Looking for Reliable Network Infrastructure Solutions?
+          </h2>
+          <p className="text-xl text-white/90 mb-8 leading-relaxed">
+            From enterprise routers and ATA gateways to managed switches, we provide complete network solutions for your VoIP deployment. Get expert support for Peplink, Grandstream, and other leading brands.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <a
+              href="/contact"
+              className="inline-flex items-center justify-center px-8 py-4 bg-white text-[#b0d136] rounded-lg font-bold text-lg hover:bg-gray-100 transition-all duration-300 shadow-xl hover:shadow-2xl hover:scale-105"
+            >
+              Request Network Assessment
+            </a>
+            <a
+              href="/#contact"
+              className="inline-flex items-center justify-center px-8 py-4 bg-[#3d8eb3] text-white rounded-lg font-bold text-lg hover:bg-[#2c7a9e] transition-all duration-300 shadow-xl hover:shadow-2xl hover:scale-105"
+            >
+              Speak with Specialist
+            </a>
+          </div>
+        </div>
+      </section>
+
       <Footer />
     </div>
   );

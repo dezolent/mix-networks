@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Smartphone, Phone, Network, Headphones, Volume2, ExternalLink, Package, ArrowRight } from 'lucide-react';
+import { Smartphone, Phone, Network, Headphones, Volume2, ExternalLink, Package, ArrowRight, Unplug } from 'lucide-react';
 import { supabase, HardwareProduct } from '../lib/supabase';
 import Header from './Header';
 import Footer from './Footer';
@@ -7,6 +7,7 @@ import Footer from './Footer';
 function HardwarePage() {
   const [potsProducts, setPotsProducts] = useState<HardwareProduct[]>([]);
   const [ipPhones, setIpPhones] = useState<HardwareProduct[]>([]);
+  const [atas, setAtas] = useState<HardwareProduct[]>([]);
   const [routers, setRouters] = useState<HardwareProduct[]>([]);
   const [headsets, setHeadsets] = useState<HardwareProduct[]>([]);
   const [paging, setPaging] = useState<HardwareProduct[]>([]);
@@ -30,6 +31,12 @@ function HardwarePage() {
         .eq('category', 'ip_phones')
         .order('created_at', { ascending: false });
 
+      const { data: atasData } = await supabase
+        .from('hardware_products')
+        .select('*')
+        .eq('category', 'ata')
+        .order('created_at', { ascending: false });
+
       const { data: routersData } = await supabase
         .from('hardware_products')
         .select('*')
@@ -50,6 +57,7 @@ function HardwarePage() {
 
       setPotsProducts(potsData || []);
       setIpPhones(ipPhonesData || []);
+      setAtas(atasData || []);
       setRouters(routersData || []);
       setHeadsets(headsetsData || []);
       setPaging(pagingData || []);
@@ -199,6 +207,16 @@ function HardwarePage() {
         products={ipPhones}
         bgColor="bg-gradient-to-br from-[#5fa68f] to-[#4a8e7a]"
         link="/hardware/ip-phones"
+      />
+
+      <div className="bg-gradient-to-r from-gray-50 to-white py-1"></div>
+
+      <CategorySection
+        title="ATAs"
+        icon={<Unplug className="w-7 h-7 text-white" />}
+        products={atas}
+        bgColor="bg-gradient-to-br from-[#3d8eb3] to-[#5fa68f]"
+        link="/hardware/ata"
       />
 
       <div className="bg-gradient-to-r from-gray-50 to-white py-1"></div>

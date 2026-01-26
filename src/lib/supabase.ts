@@ -25,7 +25,7 @@ export interface HardwareProduct {
   id: string;
   title: string;
   description: string[];
-  category: 'pots_replacement' | 'ip_phones' | 'routers_gateways' | 'headsets' | 'paging';
+  category: 'pots_replacement' | 'ip_phones' | 'routers_gateways' | 'headsets' | 'paging' | 'ata';
   device_class: string | null;
   make: string | null;
   model: string | null;

@@ -18,6 +18,7 @@ import POTSReplacementCategoryPage from './components/POTSReplacementCategoryPag
 import RoutersGatewaysPage from './components/RoutersGatewaysPage';
 import HeadsetsPage from './components/HeadsetsPage';
 import PagingPage from './components/PagingPage';
+import ATAPage from './components/ATAPage';
 
 function App() {
   return (
@@ -40,6 +41,7 @@ function App() {
         <Route path="/hardware" element={<HardwarePage />} />
         <Route path="/hardware/ip-phones" element={<IPPhonesPage />} />
         <Route path="/hardware/pots-replacement" element={<POTSReplacementCategoryPage />} />
+        <Route path="/hardware/ata" element={<ATAPage />} />
         <Route path="/hardware/routers-gateways" element={<RoutersGatewaysPage />} />
         <Route path="/hardware/headsets" element={<HeadsetsPage />} />
         <Route path="/hardware/paging" element={<PagingPage />} />

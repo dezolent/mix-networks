@@ -70,6 +70,12 @@ function Header() {
                     IP Phones
                   </a>
                   <a
+                    href="/hardware/ata"
+                    className="block px-4 py-2 text-gray-700 hover:bg-[#3d8eb3]/10 hover:text-[#3d8eb3] transition-colors"
+                  >
+                    ATAs
+                  </a>
+                  <a
                     href="/hardware/routers-gateways"
                     className="block px-4 py-2 text-gray-700 hover:bg-[#3d8eb3]/10 hover:text-[#3d8eb3] transition-colors"
                   >
